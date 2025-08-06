@@ -1,0 +1,234 @@
+#map{
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.map_img {
+    margin: 0 auto;
+}
+
+.gsimg {
+    width: 660px;
+    height: 550px;
+    background-image: url(../img/map_gs.JPG);
+    background-repeat: no-repeat;    
+    background-size : cover;
+    background-position: center;
+    display: block;
+}
+
+.baimg {
+    width: 660px;
+    height: 550px;
+    background-image: url(../img/map_ba.JPG);
+    background-repeat: no-repeat;    
+    background-size : cover;
+    background-position: center;
+    display: none;
+}
+
+.jjimg{
+    width: 660px;
+    height: 550px;
+    background-image: url(../img/map_jj.JPG);
+    background-repeat: no-repeat;    
+    background-size : cover;
+    background-position: center;
+    display: none;
+}
+
+.slimg{
+    width: 660px;
+    height: 550px;
+    background-image: url(../img/map_sl.JPG);
+    background-repeat: no-repeat;    
+    background-size : cover;
+    background-position: center;
+    display: none;
+}
+
+
+.pill-nav {
+    margin: auto 100px;
+}
+
+.pill-nav li {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 422px;
+    height: 52px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 14px 40px;
+    border-radius: 20px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    line-height : 1;
+}
+
+.pill-nav>li>div{
+    width: 20px; 
+    background-image: url(../img/arrow_black.png);
+    background-repeat: no-repeat;    
+    background-size : contain;
+    background-position: center;
+}
+
+
+.pill-nav>li:hover div{
+    width: 20px; 
+    background-image: url(../img/arrow_white.png);
+    background-repeat: no-repeat;    
+    background-size : contain;
+    background-position: center;
+}
+
+
+.goseong{
+    justify-content: space-between;
+}
+
+.pill-nav .goseong:hover {
+    background-color: #73D45C;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.pill-nav .buan:hover {
+    background-color: #57C7FF;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.pill-nav .junju:hover {
+    background-color: #FF387D;
+    color: white;
+    font-weight: 700;
+}
+
+.pill-nav .etc:hover {
+    background-color: #FF6F1E ;
+    color: white;
+    font-weight: 700;
+}
+
+.pill-nav .etc {
+    margin-bottom: none;
+}
+
+.pill-nav li.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+@media screen and (max-width: 1500px){
+    .gsimg {
+    width: 350px;
+    height: 310px;
+}
+
+.baimg {
+    width: 350px;
+    height: 310px;
+}
+
+.jjimg{
+    width: 350px;
+    height: 310px;
+}
+
+.slimg{
+    width: 350px;
+    height: 310px;
+}
+}
+
+@media screen and (max-width: 1024px){
+    #map{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 150px;
+    }
+
+.gsimg {
+    width: 350px;
+    height: 310px;
+}
+
+.baimg {
+    width: 350px;
+    height: 310px;
+}
+
+.jjimg{
+    width: 350px;
+    height: 310px;
+}
+
+.slimg{
+    width: 350px;
+    height: 310px;
+}
+
+.pill-nav {
+    margin: auto 30px;
+}
+
+}
+
+@media screen and (max-width: 767px){
+    #map{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .map_img{
+        margin-bottom: 60px;
+    }
+
+.gsimg {
+    width: 350px;
+    height: 310px;
+}
+
+.baimg {
+    width: 350px;
+    height: 310px;
+}
+
+.jjimg{
+    width: 350px;
+    height: 310px;
+}
+
+.slimg{
+    width: 350px;
+    height: 310px;
+}
+
+.pill-nav li {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 80%;
+    height: 52px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 14px 40px;
+    border-radius: 20px;
+    background-color: #ddd;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    line-height : 1;
+}
+
+}

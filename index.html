@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="./css/common_yk.css"> -->
+    <link rel="stylesheet" href="./css/common_2.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/main_1.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/footer_re_re.css">
+    <link rel="stylesheet" href="./css/style_footer.css">
+    <link rel="stylesheet" href="./css/section2_style.css">
+    <link rel="stylesheet" href="./css/section4_style.css">
+    
+
+    <title>2025공예주간</title>
+</head>
+
+<body>
+    <header>
+        <div id="h_logo"><a href=""><img src="./img/logo.png" alt=""></a></div>
+                <div class="navbar">
+            <div class="dropdown">
+                <div id="ham"><img src="./img/icon/ham.png" alt=""></div>
+                <div class="dropdown-content bold18">
+                    <a href="./subbase_about.html">행사 개요</a>
+                    <a href="https://udyeong.github.io/teamproject/subpage02.html">거점도시 프로그램</a>
+                    <a href="https://udyeong.github.io/teamproject/subpage03.html">기획 프로그램</a>
+                    <a href="https://udyeong.github.io/teamproject/subpage04_1.html">공예주간 파트너</a>
+                    <a href="./subbase_press.html">프레스</a>
+                </div>
+            </div>
+        </div>
+        <article id="ul_wrap" class="h1024">
+            <ul id="menu_wrap">
+                <li><a href="./subbase_about.html">행사 개요</a></li>
+                <li><a href="https://udyeong.github.io/teamproject/subpage02.html">거점도시 프로그램</a></li>
+                <li><a href="https://udyeong.github.io/teamproject/subpage03.html">기획 프로그램</a></li>
+                <li><a href="https://udyeong.github.io/teamproject/subpage04_1.html">공예주간 파트너</a></li>
+                <li><a href="./subbase_press.html">프레스</a></li>
+            </ul>
+            <ul id="pop_wrap" class="h1024">
+                <li><a href="">로그인</a></li>
+                <li><a href="">예매확인</a></li>
+            </ul>
+        </article>
+    </header>
+
+    <main>
+
+        <section id="sec1" class="flex magin_bottom150">
+            <div id="sec1_img"></div>
+            <article id="sec1_txt" class="h1024">
+                <div id="sec1_logo"></div>
+                <article id="sec1_title">
+                    <p>국내 최대 규모로 열리는 공예 축제, 2025 공예주간</p>
+                    <p>‘공생공락(共生工樂, Living Together Craft Together)’을 슬로건으로,<br>
+                        거점도시 강원 고성·전북 부안·전북 전주를 중심으로<br>
+                        다채로운 공예문화 프로그램을 진행합니다.</p>
+                </article>
+                <div id="more_btn"><a href="" class="flex">
+                    <p>더 보기</p>
+                    <div></div>
+                </a></div>
+                <article id="sec1_sub">
+                    <p>2025. 5. 16(금) ~ 5. 25(일) / 총 10일간</p>
+                    <p>공예주간 거점도시 외 전국</p>
+                </article>
+                <ul id="sec1_coop" class="flex">
+                    <li>주최<br>HOSTED<br>BY</li>
+                    <li><img src="./img/culture.png" alt="문화체육관광부"></li>
+                    <li>주관<br>ORGANIZED<br>BY</li>
+                    <li><img src="./img/crafts.png" alt="한국공예디자인문화진흥원"></li>
+                    <li>후원<br>SPONSORED<br>BY</li>
+                    <li><img src="./img/art.png" alt="한국문화예술위원회"></li>
+                </ul>
+            </article>
+        </section>
+
+    <section id="sec2">
+        <h2>거점도시 프로그램</h2>
+        <div class="swiper citySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="sec2_img">
+                            <img src="./img/2025 goseong.jpg" alt="고성 포스터">
+                        </div>
+                        <div class="sec2_arrow"></div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="sec2_img">
+                            <img src="./img/2025 buan.jpg" alt="부안 포스터">
+                        </div>
+                        <div class="sec2_arrow"></div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="sec2_img">
+                            <img src="./img/2025 jeonju.jpg" alt="전주 포스터">
+                        </div>
+                        <div class="sec2_arrow"></div>
+                    </a>
+                </div>
+                <div class="flex slide_btn">
+                    <div class="slide_btn_left">
+                        <img src="./img/arrow_wt_18px_left.png" alt="">
+                    </div>
+                    <div class="slide_btn_right">
+                        <img src="./img/arrow_wt_18px.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".citySwiper", {
+                rewind: true,
+                spaceBetween: 30,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    767: {
+                        slidesPerView: 2,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                    },
+                }
+            });
+
+        </script>
+
+    </section>
+
+            <h2 class="center">지도로 보는 프로그램</h2>
+    <section id="map" class="flex">
+    
+        <div class="map_img">
+            <div class="gsimg"></div>
+            <div class="baimg"></div>
+            <div class="jjimg"></div>
+            <div class="slimg"></div>
+        </div>
+        
+        <ul class="pill-nav">
+            <li class="goseong"><span>고성</span><div class="arrow1"></div></li>
+            <li class="buan"><span>부안</span><div class="arrow1"></div></li>
+            <li class="junju"><span>전주</span><div class="arrow1"></div></li>
+            <li class="etc"><span>기타 기획 프로그램</span><div class="arrow1"></div></li>
+        </ul>
+        <script src="./js/script.js"></script>
+    </section>
+
+
+<section id="sec4">
+        <h2>기획 프로그램</h2>
+        <!--종류,지역,검색 탭-->
+        <div class="flex sec4_tap">
+            <!--프로그램 종류-->
+            <div class="flex category_wrap">
+                <div class="txt_bubble">프로그램 종류</div>
+                <ul class="flex sec4_category">
+                    <li><a href="">전체</a></li>
+                    <li><a href="">전시</a></li>
+                    <li><a href="">강연</a></li>
+                    <li><a href="">마켓</a></li>
+                    <li><a href="">체험</a></li>
+                </ul>
+            </div>
+            <!--프로그램 지역-->
+            <div class="flex loca_wrap">
+                <div class="txt_bubble">프로그램 지역</div>
+                <ul class="flex category_loca">
+                    <li>전체</li>
+                    <li class="loca_hiddden">서울</li>
+                    <li class="loca_hiddden">경기</li>
+                    <li class="loca_hiddden">인천</li>
+                    <li class="loca_hiddden">충남</li>
+                    <li class="loca_hiddden">경북</li>
+                </ul>
+                <button>
+                    <img src="./img/small under arrow.png" alt="">
+                </button>
+            </div>
+            <!--프로그램 검색-->
+            <div class="flex search_wrap">
+                <div class="txt_bubble">프로그램 검색</div>
+                <form action="">
+                    <input type="text" placeholder="검색어를 입력하세요">
+                    <button>
+                        <img src="./img/search.png" alt="">
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!--767px 일 때-->
+        <article id="w767_tap">
+            <ul class="flex w767_tap_cate">
+                <li>
+                    <a href="" class="flex">
+                        <div>
+                            <img src="./img/arrow_bl.png" alt="화살표">
+                        </div>
+                        프로그램 종류
+                    </a>
+                    <div class="tapborder"></div>
+                </li>
+                <li>
+                    <a href="" class="flex">
+                        <div>
+                            <img src="./img/arrow_bl.png" alt="화살표">
+                        </div>
+                        프로그램 지역
+                    </a>
+                    <div class="tapborder"></div>
+                </li>
+            </ul>
+            <ul class="flex w767_tap_loca">
+                <li><a href="">전체</a></li>
+                <li><a href="">전시</a></li>
+                <li><a href="">강연</a></li>
+                <li><a href="">마켓</a></li>
+                <li><a href="">체험</a></li>
+            </ul>
+        </article>
+        <!--기획 프로그램 이미지-->
+        <article class="swiper swiper_container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program1.jpg" alt="미래공예 포스터">
+                        </div>
+                        <p class="pro_name">미래공예</p>
+                        <p class="pro_office">컨트리뷰터스(유무형연구소)</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program2.jpg" alt="남산골 HOME 포스터">
+                        </div>
+                        <p class="pro_name">남산골 HOME</p>
+                        <p class="pro_office">쥬스컴퍼니</p>
+                    </a>
+                </div>
+                <div class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program3.jpg" alt="수선 공예 놀이터 포스터">
+                        </div>
+                        <p class="pro_name">수선 공예 놀이터: 뻔한 옷을 FUN하게!</p>
+                        <p class="pro_office">재니들</p>
+                    </a>
+                </div>
+                <div id= "block_2" class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program4.jpg" alt="소만의 일들 포스터">
+                        </div>
+                        <p class="pro_name">소만의 일들</p>
+                        <p class="pro_office">티더블유엘</p>
+                    </a>
+                </div>
+                <div id= "block_2" class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program5.jpg" alt="내 책상 위의 천사 포스터">
+                        </div>
+                        <p class="pro_name">내 책상 위의 천사</p>
+                        <p class="pro_office">팩토리에디션</p>
+                    </a>
+                </div>
+                <div id= "block_2" class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program6.jpg" alt="쓰임이 있는 아름다운 공예 포스터">
+                        </div>
+                        <p class="pro_name">쓰임이 있는 아름다운 공예</p>
+                        <p class="pro_office">구하우스미술관</p>
+                    </a>
+                </div>
+                <div id= "block_1" class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program7.jpg" alt="2025 공예로운 한옥마을 포스터">
+                        </div>
+                        <p class="pro_name">2025 공예로운 한옥마을</p>
+                        <p class="pro_office">김포도예가협회</p>
+                    </a>
+                </div>
+                <div  id= "block_1" class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program8.jpg" alt="공예로(工/共藝路), 동두천 포스터">
+                        </div>
+                        <p class="pro_name">공예로(工/共藝路), 동두천</p>
+                        <p class="pro_office">스페이스아프로아시아</p>
+                    </a>
+                </div>
+                <div  id= "block_1" class="swiper-slide slide_cont">
+                    <a href="">
+                        <div>
+                            <img src="./img/program9.jpg" alt="PEACE ISLAND CRAFT FESTA 포스터">
+                        </div>
+                        <p class="pro_name">PEACE ISLAND CRAFT FESTA</p>
+                        <p class="pro_office">공공프리즘</p>
+                    </a>
+                </div>
+            </div>
+            <div class="flex slide_btn">
+                <div class="slide_btn_left">
+                    <img src="./img/arrow_wt_18px_left.png" alt="">
+                </div>
+                <div class="slide_btn_right">
+                    <img src="./img/arrow_wt_18px.png" alt="">
+                </div>
+            </div>
+        </article>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".swiper_container", {
+                rewind: true,
+                slidesPerView: 6,
+                navigation: {
+                    nextEl: ".slide_btn_left",
+                    prevEl: ".slide_btn_right",
+                },
+                breakpoints: {
+                    0: {
+                        slidesPerView: 2,
+                    },
+                    767: {
+                        slidesPerView: 3,
+                    },
+                    1024: {
+                        slidesPerView: 6,
+                    },
+                }
+            });
+        </script>
+    </section>
+
+
+    <section class="press_sec">
+        <h2 class="center">프레스</h2>
+        <div class="padding45">
+            <p class="medi15 padding5">2025년 2월 17일</p>
+            <div id="news_wrap" class="flex">
+                <div class="img1"></div>
+                <div class="text_wrap">
+                    <p class="orenge padding10">news</p>
+                    <p class="bold20 padding10"><a href="">[강원 고성소식] '공예 주간 거점도시' 공모사업 2년 연속 선정</a></p>
+                    <p id="text" class="medi16">(강원 고성=연합뉴스) ▲ '공예 주간 거점도시' 공모사업 2년 연속 선정 = 강원 고성문화재단은 문화체육관광부가 주최하고 한국공예·디자인문화진흥원이 주관하는 '2025 공예 주간 거점도시' 공모사업에 2년 연속 선정됐다고 17일 밝혔다.…</p>
+                </div>
+                <a href="" class="arrow_box"><div class="arrow"></div></a>
+            </div>
+        </div>
+        <div class="padding45">
+            <p class="medi15 padding5">2025년 2월 17일</p>
+            <div id="news_wrap" class="flex">
+                <div class="img2"></div>
+                <div class="text_wrap">
+                    <p class="orenge padding10">news</p>
+                    <p class="bold20 padding10"><a href="">고성문화재단, 2년 연속 ‘공예주간 거점도시’ 선정</a></p>
+                    <p id="text"class="medi16">【고성】 고성문화재단이 2년 연속 ‘2025 공예주간 거점도시’ 공모사업에 선정됐다.
+                        공예주간 거점도시 공모사업은 문화체육관광부가 주최하고 한국공예‧디자인문화진흥원이 주관하는 …</p>
+                </div>
+                <a href="" class="arrow_box"><div class="arrow"></div></a>
+            </div>
+        </div>
+        <div>
+            <p class="medi15 padding5">2025년 2월 17일</p>
+            <div id="news_wrap" class="flex">
+                <div class="img3"></div>
+                <div class="text_wrap">
+                    <p class="orenge padding10">news</p>
+                    <p class="bold20 padding10"><a href="">경북 청송군, “공예와 미디어아트의 중심이 되다!”</a></p>
+                    <p id="text" class="medi16">청송군(군수 윤경희)은 (재)청송문화관광재단(이하 재단)이 문화예술 분야에서 두 건의 공모사업을 유치하며 지역 문화예술 활성화에 기여할 전망이라고 밝혔다. 이번에 선정된 공모사업은 한국공예‧디자인문화…</p>
+                </div>
+                <a clhref="" class="arrow_box"><div class="arrow"></div></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="free w1920">
+        <h3>협력·기업</h3>
+
+        <div class="up">
+            <div>
+                <img src="./img/푸터/8._SSG.COM로고-01 1.png" alt="이미지1" class="ssg1">
+            </div>
+            <div>
+                <img src="./img/푸터/신세계로고 2.png" alt="이미지2" class="shinsegae">
+            </div>
+            <div>
+                <img src="./img/푸터/삼다수 3.png" alt="이미지3" class="samdasu">
+            </div>
+            <div>
+                <img src="./img/푸터/세이프스테이 4.png" alt="이미지4" class="stay">
+            </div>
+            <div>
+                <img src="./img/푸터/디자인협회 5.png" alt="이미지5" class="design0">
+            </div>
+            <div>
+                <img src="./img/푸터/아이디어스로고 6.png" alt="이미지6" class="idus">
+            </div>
+            <div>
+                <img src="./img/푸터/한국 공예 회사 로고 7.png" alt="이미지7" class="cmp">
+            </div>
+        </div>
+    </section>
+
+
+    </main>
+    <footer class="black w1920">
+        <section class="footerSec_1">
+            <h2>2025 공예주간</h2>
+            <P>한국공예·디자인문화진흥원</P>
+            <P class="site">© 2025. Korea Art Festa. all rights reserved.</P>
+        </section>
+
+        <section class="footerSec_2">
+            <h3>TEL.</h3>
+            <p><a href="tel:+820212345678">+82-02-1234-5678</a></p>
+        </section>
+
+        <section class="footerSec_3">
+            <h3>E-MAIL.</h3>
+            <p><a href="mailto:2025_ART@GMAIL.COM">2025_ART@GMAIL.COM</a></p>
+        </section>
+
+        <section class="footerSec_4">
+            <h3>FAX.</h3>
+            <p><a href="fax:+820212345678">+82-02-1234-5678</a></p>
+        </section>
+
+        <div class="bacode">
+            <img src="./img/푸터/Group 191.png" alt="이미지8">
+        </div>
+
+    </footer>
+        <script src="./js/nav.js"></script>
+        <script src="./js/script_yk.js"></script>
+</body>
+
+</html>

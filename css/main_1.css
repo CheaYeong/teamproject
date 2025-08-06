@@ -1,0 +1,143 @@
+#sec1{
+    width: 100%;
+    color: #0B1215;
+    text-align: center;
+}
+
+
+#sec1_img{
+    width: 50%;
+    height: 953px;
+    background-image: url(../img/main_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#sec1_txt{
+    width: 50%;
+    height: 953px;
+    background-color: #FFFDEE;
+    /* background-color: lightblue; */
+    padding: 170px 15px 30px;
+    box-sizing: border-box;
+}
+
+#sec1_logo{
+    width: 326px;
+    height: 220px;
+    margin: 0 auto;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#sec1_title{
+    padding-top: 70px;
+}
+#sec1_title>p:first-child{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#sec1_title>p:nth-child(2){
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#more_btn>a{
+    width: 150px;
+    height: 35px;
+    margin: 0 auto;
+    border: 1.5px solid #FF6F1E;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    box-sizing: border-box;
+}
+#more_btn p{
+    font-size: 15px;
+}
+#more_btn div{
+    width: 15px;
+    height: 17px;
+    margin: 4px;
+    background-image: url(../img/icon/arrow_bl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#sec1_sub{
+    padding: 110px 0 80px;
+}
+#sec1_sub>p:first-child{
+    font-size: 16px;
+}
+#sec1_sub>p:nth-child(2){
+    font-size: 30px;
+}
+#sec1_coop{
+    font-size: 8px;
+    text-align: left;
+    gap: 2px;
+    justify-content: space-between;
+}
+#sec1_coop img{
+    width: 150px;
+}
+
+/* sec1 end */
+
+
+/* 섹션 취합 예시 */
+
+.sec1111{
+    width: 100%;
+    height: 300px;
+    background-color: chartreuse;
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 1500px){
+
+    .h1500{
+        display: none;
+    }
+    #sec1_coop img{
+        width: 120px;
+    }
+    #sec1_sub{
+        padding: 80px 0 80px;
+    }
+
+}
+
+
+@media screen and (max-width: 1600px){
+    .h1600{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .h1024{
+        display: none;
+    }
+    #sec1_img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #sec1_txt{
+        padding: 30px 10px;
+    }
+    #sec1_txt>p:first-child {
+        font-size: 17px;
+    }
+    #sec1_txt>p:last-child {
+        font-size: 26px;
+    }
+}

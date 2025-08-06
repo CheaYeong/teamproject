@@ -1,0 +1,189 @@
+.free {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* 제목 스타일 */
+.free h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* .up,
+.down {
+  display: flex;
+  justify-content: center;   /* 가로 가운데 정렬 */
+  /* gap: 150px;                이미지 사이 간격 */
+  /* margin-bottom: 100px;       위/아래 줄 사이 간격 */
+/* }  */
+
+.up{
+  padding:0 5vw;
+  display: flex;
+  flex-wrap: wrap;
+   gap: 5vw;
+   justify-content: center;
+}
+
+
+/* .down {
+  display: flex;
+  justify-content: center; 
+  gap: 180px;
+   padding-left: 150px;
+   padding-right: 200px;
+
+} */
+
+/* .ssg1{
+  height: 110px;
+  margin-top: 40px;
+}
+
+.shinsegae {
+  height: 100px;
+  margin-top: 40px; 
+}
+
+.stay {
+    height: 110px;
+      margin-top: 40px; 
+}
+
+.design0{
+  height: 170px;
+  margin: 40px;
+}
+
+.samdasu{
+     height: 100px;
+  margin-top: 40px; 
+}
+
+.idus{
+    height: 90px;
+    margin-top: 70px;
+}
+
+.cmp{
+  height: 110px;
+  margin-top: 70px;
+
+} */
+
+.free {
+  margin-bottom: 200px; 
+}
+
+
+/* 1024px 이하 (태블릿 크기) */
+@media (max-width: 1024px) {
+  .black {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .black .footerSec_1 {
+    flex: 1 1 auto;
+    order: 0;
+  }
+
+  .black .footerSec_2,
+  .black .footerSec_3,
+  .black .footerSec_4 {
+    display: none; /* 화면에서 숨김 처리 */
+  }
+
+  .bacode {
+    order: 1;
+    align-self: flex-end;
+    margin-bottom: 0;
+  }
+
+  .black h2 {
+    font-size: 28px;
+  }
+
+  .black p {
+    font-size: 13px;
+  }
+
+  .free {
+    margin-bottom: 100px;
+    padding: 20px 10px;
+  }
+}
+  /* .up, .down {
+    gap: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+
+  .shinsegae, .stay, .samdasu, .design0, .idus, .cmp {
+    margin-top: 20px !important;
+  }
+
+
+/* 767px  (모바일 크기) */
+@media (max-width: 767px) {
+  .black {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 가운데 정렬 */
+    padding: 20px;
+    height: auto;
+  }
+
+  .bacode {
+    order: -1;
+    align-self: center; /* 가운데 정렬 */
+    margin-bottom: 20px;
+  }
+
+  .black .footerSec_1 {
+    display: block;
+    text-align: center; /* 가운데 정렬 (옵션) */
+    width: 100%;
+  }
+
+  .black .footerSec_2,
+  .black .footerSec_3,
+  .black .footerSec_4 {
+    display: none; /* 숨김 처리 */
+  }
+
+  .black h2 {
+    font-size: 20px;
+  }
+
+  .black h3 {
+    font-size: 14px;
+  }
+
+  .black p {
+    font-size: 10px;
+  }
+
+  .free {
+    margin-bottom: 80px;
+    padding: 10px;
+  }
+
+  .up, .down {
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .shinsegae, .stay, .samdasu, .design0, .idus, .cmp {
+    margin-top: 40px !important;
+  }
+}
